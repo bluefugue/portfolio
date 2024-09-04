@@ -80,7 +80,6 @@ p {
 
 } */
 
-
 body {
     background-color: white;
     font-family: sans-serif;
@@ -112,7 +111,7 @@ h2 {
 
 .navitem {
     display:inline;
-    margin:0 50px;
+    margin:0 30px;
     text-transform:uppercase;
     letter-spacing: .4em;
 }
@@ -162,3 +161,11 @@ img {
     padding: 0;
     border-radius: 8%;
 }
+
+@media (max-width:800px)
+    {
+        .navitem {
+            display:block;
+            margin-bottom:8px;
+        }
+    }
